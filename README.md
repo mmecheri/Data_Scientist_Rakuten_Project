@@ -6,8 +6,7 @@ proposé par [Rakuten](https://challengedata.ens.fr/participants/challenges/35/)
 
 Le challenge porte sur le thème de la **classification des produits "e-commerce"**. 
 
-L'objectif est de prédire le code type (**prdtypecode**) de chaque produit en utilisant des **données textuelles** (désignation et description du produit) ainsi que des **données images** (image du produit)
-tel qu'il est défini dans le catalogue de Rakuten France.                  
+L'objectif est de prédire le code type (**prdtypecode**) de chaque produit en utilisant des **données textuelles** (désignation et description du produit) ainsi que des **données images** (image du produit) tel qu'il est défini dans le catalogue de Rakuten France.                  
 
 **Un modèle de référence** est indiqué dans le site du challenge 
 avec deux modèles distincts pour le Texte et les Images:
@@ -17,14 +16,12 @@ avec deux modèles distincts pour le Texte et les Images:
 Il est demandé d’utiliser la **métrique weighted-F1-score** pour **évaluer** les performances de la classification. 
 
 
-L’objectif du projet étant de faire mieux que les résultats du modèle de référence
+L’objectif du projet étant de faire mieux que les résultats du modèle de référence.
 
 ----------
 
 ## Jeu de données
-Pour ce challenge, Rakuten France met à disposition environ 99 000 listes de produits au format CSV, 
-                y compris l'ensemble d'entraînement (84 916) 
-                et l'ensemble de test (13 812).</br>
+Pour ce challenge, Rakuten France met à disposition environ 99 000 listes de produits au format CSV, y compris l'ensemble d'entraînement (84 916) et l'ensemble de test (13 812).</br>
 		
 Les données sont réparties suivant des critères , formant 4 datasets distincts :	
 
@@ -52,14 +49,14 @@ Voici les modèles utilisés et les résulats obetenus:
 
 ![DL_text](https://user-images.githubusercontent.com/88212289/201137059-3586e8f2-c90d-4e4d-a125-b62241fbca8b.png)
 #### Résultats:
-Les modèles Conv1D et DNN (Deep Neural Network) donnent les meilleurs scores. Le modèle LinearSVC a également donné des résultats de scoring intéressants. En fait, nous avons constaté que le modèle Conv1D présente la particularité d’être beaucoup plus rapide à l’entraînement
+Les modèles Conv1D et DNN (Deep Neural Network) donnent les meilleurs scores. Le modèle LinearSVC a également donné des résultats de scoring intéressants. En fait, nous avons constaté que le modèle Conv1D présente la particularité d’être beaucoup plus rapide à l’entraînement.
 
 ### Modélisation partie Images
-Sachant la complixité de notre jeu de données Images et les ressemblances qui existent entre les différentes classes, nous avons rapidement opté pour l’utilisation des méthodes d’apprentissage par transfert(transfert learning) avec des modèles reposant sur les réseaux de neurones artificiels, capables d’apprentissage profond (Deep Learning). Nous avons ainsi utilisé les modèles les plus adaptés aux images : les réseau de neurones convolutifs (CNN)
+Sachant la complixité de notre jeu de données Images et les ressemblances qui existent entre les différentes classes, nous avons rapidement opté pour l’utilisation des méthodes d’apprentissage par transfert(transfert learning) avec des modèles reposant sur les réseaux de neurones artificiels, capables d’apprentissage profond (Deep Learning). Nous avons ainsi utilisé les modèles les plus adaptés aux images : les réseau de neurones convolutifs (CNN).
 
 #### Choix des modèles pré-entrainés
 Parmis la listes des modèles présentés [ici](https://keras.io/api/applications/),
-nous avons retenu les modèles qui ont le moins de paramètres afin de réduire les durées d’entrainement et limiter ainsi les contraintes liées au manque de ressources de calcul
+nous avons retenu les modèles qui ont le moins de paramètres afin de réduire les durées d’entrainement et limiter ainsi les contraintes liées au manque de ressources de calcul.
 
 ![selected_models](https://user-images.githubusercontent.com/88212289/201138152-db60d1d2-0c5e-4416-a526-2455cf73b09d.png)
 #### Etape 1 - Sélection des meilleurs modèles
@@ -87,13 +84,13 @@ Les 2 meilleurs résultats ont été obtenus avec :
 - **InceptionV3**: **LR** à **0,0003**, **F1-score weighted** à **0.65**
 (Avec augmentation des données et fine-tuning)
 
-Ces résultats dépassent largement ceux annoncés dans le modèle de référence Rakuten pour la classification basée sur les données Images(0.55)
+Ces résultats dépassent largement ceux annoncés dans le modèle de référence Rakuten pour la classification basée sur les données Images(0.55).
 
 ###  Modélisation basée sur les données Texte et Images - Bimodal
 Dans cette partie, nous abordons le défi principal du challenge Rakuten , à savoir, une classification multimodal, en se basant sur les données Texte et Images.
 
 #### Démarche
-Dans le cadre de notre problème de classification, nous avons opté pour l’approche de Voting (Max Voting et Weighted Average Voting) comme suit :
+Dans le cadre de notre problème de classification, nous avons opté pour l’approche de Voting (Max Voting et Weighted Average Voting) comme suit:
 
 - Max Voting : choisir la prédiction avec la probabilité la plus élevée parmi les modèles combinés
 - Weighted Average : associer un poids à chaque modèle selon son F1-score

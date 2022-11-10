@@ -116,3 +116,16 @@ Par ailleurs, nous avons soumis nos prédictions sur le site du challenge(sur pl
 
 - Conv1D, Simple DNN et Xception: le 21 février 2022 avec un score de 0.8333, ce qui nous a placé en 27ème position sur 83.
 - Conv1D, Simple DNN et InceptionV3: le 19 mars 2022 avec un score de 0.8349, ce qui nous a placé en 25ème position sur 83.
+
+
+----------
+**Data Scientist Promotion Juin 2021**:
+
+Participants:
+- Tooba SHAUKAT
+- Brahim CHLAGHME
+- Mourad MECHERI
+
+Mentor: 
+- Gaspard GRIMM
+

@@ -3,7 +3,7 @@
 ## Le Projet 
 Ce projet a été réalisé dans le cadre d'un challenge proposé par [Rakuten](https://challengedata.ens.fr/participants/challenges/35/) et de notre formation de DataScientist au sein de l'organisme [DataSientest](https://datascientest.com/).              
 
-Le challenge porte sur le thème de la **classification des produits "e-commerce"**. 
+Le challenge porte sur le thème de la **classification des produits "e-commerce"**.
 
 L'objectif est de prédire le code type (**prdtypecode**) de chaque produit en utilisant des **données textuelles** (désignation et description du produit) ainsi que des **données images** (image du produit) tel qu'il est défini dans le catalogue de Rakuten France.                  
 

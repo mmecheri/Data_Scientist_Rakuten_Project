@@ -39,11 +39,11 @@ Les données sont réparties suivant des critères , formant 4 datasets distinct
 ## Modélisation
 
 ### Modélisation partie Texte
-#### Machine learning
+#### Machine Learning
 Ci-dessous un récapitulatif comparatif des résultats d’entrainement en choisissant dans un premier temps seulement la colonne « designation » et dans un second temps en utilisant les deux colonnes « designation » et « description », combinées en une colonne « text »:
 
 ![Ml_text](https://user-images.githubusercontent.com/88212289/201136744-3cf17787-f827-4b5e-b116-a4b09e4614f3.png)
-#### Deelp learning
+#### Deep Learning
 Voici les modèles utilisés et les résulats obetenus:
 
 ![DL_text](https://user-images.githubusercontent.com/88212289/201137059-3586e8f2-c90d-4e4d-a125-b62241fbca8b.png)
@@ -53,12 +53,12 @@ Les modèles Conv1D et DNN (Deep Neural Network) donnent les meilleurs scores. L
 ### Modélisation partie Images
 Sachant la complixité de notre jeu de données Images et les ressemblances qui existent entre les différentes classes, nous avons rapidement opté pour l’utilisation des méthodes d’apprentissage par transfert(transfert learning) avec des modèles reposant sur les réseaux de neurones artificiels, capables d’apprentissage profond (Deep Learning). Nous avons ainsi utilisé les modèles les plus adaptés aux images : les réseau de neurones convolutifs (CNN).
 
-#### Choix des modèles pré-entrainés
+##### Choix des modèles pré-entrainés
 Parmis la listes des modèles présentés [ici](https://keras.io/api/applications/),
 nous avons retenu les modèles qui ont le moins de paramètres afin de réduire les durées d’entrainement et limiter ainsi les contraintes liées au manque de ressources de calcul.
 
 ![selected_models](https://user-images.githubusercontent.com/88212289/201138152-db60d1d2-0c5e-4416-a526-2455cf73b09d.png)
-#### Etape 1 - Sélection des meilleurs modèles
+##### Etape 1 - Sélection des meilleurs modèles
 - Entrainer les modèles selectionnés avec des images d’entrées de diffrérentes tailles
 - Varier le batch size  de 32 à 64</br>
 - Varier le nombre d’Epoch de 10, 20 à 40</br>
@@ -71,12 +71,12 @@ Les 5 meilleurs modèles selon F1-score Weighted sont:
 ![Top_5_models](https://user-images.githubusercontent.com/88212289/201144809-d0c4b7bd-73c0-4fe1-a9ac-754c16da6518.png)
 
 
-#### Etape 2 - Augmentation des données avec les meilleurs modèles obtenus à l’Etape 1
-#### Etape 3 - Augmentation des données + fine tuning des modèles
-#### Etape 4 - Optimisation LR (Sans augmentation des données ni fine-tuning)
-#### Etape 5 - Augmentation des données, fine-tuning avec les LRs optimisés
+##### Etape 2 - Augmentation des données avec les meilleurs modèles obtenus à l’Etape 1
+##### Etape 3 - Augmentation des données + fine tuning des modèles
+##### Etape 4 - Optimisation LR (Sans augmentation des données ni fine-tuning)
+##### Etape 5 - Augmentation des données, fine-tuning avec les LRs optimisés
 
-#### Résultats finaux modélisation partie Images:
+#### Résultats finaux de la modélisation partie Images:
 Les 2 meilleurs résultats ont été obtenus avec :
 
 - **Xception**: **LR** à **0,0004** , **F1-score Weighted** à **0.66**

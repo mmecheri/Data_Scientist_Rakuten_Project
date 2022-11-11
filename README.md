@@ -78,10 +78,9 @@ Les 5 meilleurs modèles selon F1-score Weighted sont:
 
 #### Résultats finaux de la modélisation partie Images:
 Les 2 meilleurs résultats ont été obtenus avec :
-
-- **Xception**: **LR** à **0,0004** , **F1-score Weighted** à **0.66**
-- **InceptionV3**: **LR** à **0,0003**, **F1-score weighted** à **0.65**
 (Avec augmentation des données et fine-tuning)
+![2_Top_Models](https://user-images.githubusercontent.com/88212289/201305727-d3a278b9-884d-4654-81cc-985a188cbda8.png)
+
 
 Ces résultats dépassent largement ceux annoncés dans le modèle de référence Rakuten pour la classification basée sur les données Images(0.55).
 

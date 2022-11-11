@@ -48,7 +48,7 @@ Voici les modèles utilisés et les résulats obetenus:
 
 ![DL_text](https://user-images.githubusercontent.com/88212289/201137059-3586e8f2-c90d-4e4d-a125-b62241fbca8b.png)
 #### Résultats:
-Les modèles Conv1D et DNN (Deep Neural Network) donnent les meilleurs scores. Le modèle LinearSVC a également donné des résultats de scoring intéressants. En fait, nous avons constaté que le modèle Conv1D présente la particularité d’être beaucoup plus rapide à l’entraînement.
+Les modèles Conv1D et DNN (Deep Neural Network) donnent les meilleurs scores.
 
 ### Modélisation partie Images
 Sachant la complixité de notre jeu de données Images et les ressemblances qui existent entre les différentes classes, nous avons rapidement opté pour l’utilisation des méthodes d’apprentissage par transfert(transfert learning) avec des modèles reposant sur les réseaux de neurones artificiels, capables d’apprentissage profond (Deep Learning). Nous avons ainsi utilisé les modèles les plus adaptés aux images : les réseau de neurones convolutifs (CNN).

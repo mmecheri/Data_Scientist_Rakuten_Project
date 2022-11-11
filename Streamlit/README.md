@@ -24,8 +24,12 @@ Voici quelques exemples de prédictions:
 
 ## Comment exécuter cette Démo
 
-pip install -r requirements.txt
+*git clone https://github.com/mmecheri/Data_Scientist_Rakuten_Project.git* 
 
-cd code
+*cd Streamlit*
 
-streamlit run rakupy_home.py 
+*pip install -r requirements.txt*
+
+*cd code*
+
+*streamlit run rakupy_home.py*

@@ -31,8 +31,9 @@ Les données sont réparties suivant des critères , formant 4 datasets distinct
 	- « image_train » contenant 84 916 images pour l'**entraînement**
 	- « image_test » contenant 13 812 images (pour la sommission des résulats)
 	
-**Exemples de données :** </br>
-![data_example](https://user-images.githubusercontent.com/88212289/201135993-81d5834d-c4ab-44ca-8d2e-ad61ccce3e4b.png)
+
+![data_example](https://user-images.githubusercontent.com/88212289/201309347-d5b5fa22-ca89-4653-9525-38db5fd903cb.png)
+
 
 ----------
 

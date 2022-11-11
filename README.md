@@ -91,8 +91,8 @@ Dans cette partie, nous abordons le défi principal du challenge Rakuten , à sa
 #### Démarche
 Dans le cadre de notre problème de classification, nous avons opté pour l’approche de Voting (Max Voting et Weighted Average Voting) comme suit:
 
-- Max Voting : choisir la prédiction avec la probabilité la plus élevée parmi les modèles combinés
-- Weighted Average : associer un poids à chaque modèle selon son F1-score
+- Max Voting: choisir la prédiction avec la probabilité la plus élevée parmi les modèles combinés
+- Weighted Average: associer un poids à chaque modèle selon son F1-score
 
 #### Combinaisons utilisées - Texte et Images
 - Simple DNN , Conv1D et Xception

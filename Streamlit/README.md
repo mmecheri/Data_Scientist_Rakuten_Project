@@ -15,11 +15,11 @@ Les ***données** peuvent être **selectionnée**s à partir de notre jeu de don
 
 Voici quelques exemples de prédictions:
 
-#### - A partir de données Texte saisie manuellement en utlisant Conv1D: 
+#### - A partir de données Texte en utlisant un modèle RNN Conv1D: 
 ![Exemple_1](https://user-images.githubusercontent.com/88212289/201482989-6387b7a0-7e10-4be0-b141-671657c8eeb5.PNG)
 
 
-#### - A partir d'une données Image entrée manuellement en utilisant InceptionV3:
+#### - A partir d'une données Image en utilisant CNN Xception:
 ![Exemple_2](https://user-images.githubusercontent.com/88212289/201482993-a912f1f9-dcde-4b7f-9114-634e24f5050f.PNG)
 
 

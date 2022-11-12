@@ -28,14 +28,3 @@ Voici quelques exemples de prédictions:
 ![Exemple_3](https://user-images.githubusercontent.com/88212289/201483002-23c24943-e9e0-4412-841d-5d88b2546bb6.PNG)
 
 
-## Comment exécuter cette Démo
-
-*git clone https://github.com/mmecheri/Data_Scientist_Rakuten_Project.git* 
-
-*cd Streamlit*
-
-*pip install -r requirements.txt*
-
-*cd code*
-
-*streamlit run rakupy_home.py*

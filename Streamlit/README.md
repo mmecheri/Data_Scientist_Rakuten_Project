@@ -1,5 +1,5 @@
 
-## L'application Streamlit est hebergée sur Hugging Face et accessible via ce lien : https://huggingface.co/spaces/mmecheri/streamlit_Rakuten
+# L'application Streamlit qui présente le projet , les différentes étapes, les résultats obtenus et la partie démo(interactive) est hébergée sur Hugging Face et accessible via ce lien: https://huggingface.co/spaces/mmecheri/streamlit_Rakuten
 
 
 # Streamlit Demo : Rakuten France Multimodal Product Data Classification

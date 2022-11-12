@@ -16,15 +16,16 @@ Les ***données** peuvent être **selectionnée**s à partir de notre jeu de don
 Voici quelques exemples de prédictions:
 
 #### - A partir de données Texte saisie manuellement en utlisant Conv1D: 
-![Example_1](https://user-images.githubusercontent.com/88212289/201320562-bab4503a-88c2-4c62-baf6-8f2b2a23c64e.PNG)
+![Exemple_1](https://user-images.githubusercontent.com/88212289/201482989-6387b7a0-7e10-4be0-b141-671657c8eeb5.PNG)
 
 
 #### - A partir d'une données Image entrée manuellement en utilisant InceptionV3:
-![Example_2](https://user-images.githubusercontent.com/88212289/201320580-2c7fb54e-6609-494b-9868-96bec8f1fa12.PNG)
+![Exemple_2](https://user-images.githubusercontent.com/88212289/201482993-a912f1f9-dcde-4b7f-9114-634e24f5050f.PNG)
 
 
 #### - A partir de données Texte et d'Images(Bimodal) avec Conv1D&Simple DNN&InceptionV3
-![Example_3](https://user-images.githubusercontent.com/88212289/201320598-b1103685-7f16-44be-8b39-13446d2eb88a.PNG)
+![Exemple_3](https://user-images.githubusercontent.com/88212289/201483002-23c24943-e9e0-4412-841d-5d88b2546bb6.PNG)
+
 
 ## Comment exécuter cette Démo
 

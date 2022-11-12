@@ -4,7 +4,7 @@ Dans la partie Démo de l'application, vous pouvez réaliser vos propres prédic
 
 
 # Streamlit Demo : Rakuten France Multimodal Product Data Classification
-Dans la partie Démo, nous vous présentons une interface permettant de faire des prédictions. Celles-ci peuvent être réalisées avec un modèle basé sur les données Texte ou Images ou les deux combinés
+Dans la partie Démo, nous vous présentons une interface permettant de faire des prédictions. Celles-ci peuvent être réalisées avec un modèle basé sur les données Texte ou Images ou les deux combinés.
 
 - Une **classification basée** sur le **Texte**: Conv1D et Simple DNN
 - Une **classification basée sur les Images**: Xception et InceptionV3
@@ -12,7 +12,7 @@ Dans la partie Démo, nous vous présentons une interface permettant de faire de
   - Conv1D, Simple DNN et Xception
   - Conv1D, Simple DNN et InceptionV3
   
-Les **données** peuvent être **selectionnée**s à partir de notre jeu de données(**de manière aléatoire**) ou **entrées manuellement** par l'utilisateur
+Les **données** peuvent être **selectionnée**s à partir de notre jeu de données(**de manière aléatoire**) ou **entrées manuellement** par l'utilisateur.
 
 Voici quelques exemples de prédictions:
 

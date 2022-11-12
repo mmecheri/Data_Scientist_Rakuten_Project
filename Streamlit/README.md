@@ -12,7 +12,7 @@ Dans la partie Démo, nous vous présentons une interface permettant de faire de
   - Conv1D, Simple DNN et Xception
   - Conv1D, Simple DNN et InceptionV3
   
-Les ***données** peuvent être **selectionnée**s à partir de notre jeu de données(**de manière aléatoire**) ou **entrées manuellement** par l'utilisateur
+Les **données** peuvent être **selectionnée**s à partir de notre jeu de données(**de manière aléatoire**) ou **entrées manuellement** par l'utilisateur
 
 Voici quelques exemples de prédictions:
 

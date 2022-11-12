@@ -1,6 +1,8 @@
 
 ## L'application Streamlit  qui présente le projet , les différentes étapes, les résultats obtenus et la partie démo(interactive) est hébergée sur Hugging Face et accessible via ce lien: https://huggingface.co/spaces/mmecheri/streamlit_Rakuten
 
+Dans la partie Démo de l'application, vous pouvez réaliser vos propres prédictions via des données Texte, ou Image ou les deux combinés.
+
 # Rakuten France Multimodal Product Data Classification
 
 ## Le Projet 

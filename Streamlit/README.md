@@ -1,5 +1,6 @@
 
 # L'application Streamlit est accessible via ce lien: https://huggingface.co/spaces/mmecheri/streamlit_Rakuten
+Dans la partie Démo de l'application, vous pouvez réaliser vos propres prédictions via des données Texte, ou Image ou les deux combinés.  
 
 
 # Streamlit Demo : Rakuten France Multimodal Product Data Classification
